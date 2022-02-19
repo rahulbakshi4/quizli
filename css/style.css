@@ -1,5 +1,7 @@
 @import url(../Rules/rules.css);
 @import url(../Categories/category.css);
+@import url(../Question-Page/question.css);
+@import url("https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp");
 *{
     box-sizing: border-box;
 }
@@ -30,6 +32,9 @@ input,button,textarea,select{
 
 .ff-title {
     font-family: "Pacifico", cursive;
+}
+.decoration-none{
+    text-decoration: none;
 }
 
 .navbar{
