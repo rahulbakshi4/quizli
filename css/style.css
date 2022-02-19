@@ -1,4 +1,5 @@
 @import url(../Rules/rules.css);
+@import url(../Categories/category.css);
 *{
     box-sizing: border-box;
 }
@@ -97,10 +98,7 @@ input,button,textarea,select{
     border: 1px solid var(--clr-gray);
     background-color: var(--clr-white);
 }
-.hero-btn-outline:hover{
-    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.2);
-    transition: box-shadow 300ms ease 0ms;
-}
+
 .content-container>p{
     padding: 1rem 0;
 }
@@ -115,7 +113,11 @@ input,button,textarea,select{
     padding: 2rem;
 }
 
-.component-container:hover , .navbar-right li:hover {
+.component-container:hover,
+.navbar-right li:hover,
+.hero-btn-outline:hover,
+.card:hover
+ {
     box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
     transition: box-shadow 300ms ease 0ms;
 }
